@@ -4,7 +4,7 @@
   "description": "Cypress and Applitools test",
   "main": "index.js",
   "scripts": {
-    "test": "APPLITOOLS_API_KEY=\"OloyoDOU8S3wkDKOT732lBVxn39fhC2rmNc7103Yu626Y110\" npx cypress open"
+    "test": "npx cypress open"
   },
   "author": "Oleksii Martseniuk",
   "license": "ISC",
