@@ -1,0 +1,18 @@
+{
+  "name": "automationtest",
+  "version": "1.0.0",
+  "description": "Cypress and Applitools test",
+  "main": "index.js",
+  "scripts": {
+    "test": "APPLITOOLS_API_KEY=\"OloyoDOU8S3wkDKOT732lBVxn39fhC2rmNc7103Yu626Y110\" npx cypress open"
+  },
+  "author": "Oleksii Martseniuk",
+  "license": "ISC",
+  "devDependencies": {
+    "@applitools/eyes-cypress": "^3.26.0",
+    "cypress": "^9.6.1"
+  },
+  "dependencies": {
+    "chai": "^4.3.6"
+  }
+}
