@@ -4,12 +4,12 @@ jobs:
   cypress-run:
     runs-on: ubuntu-latest
     steps:
-    - run: npm install
-    - run: npx browserslist@latest --update-db
     - name: Checkout
       uses: actions/checkout@v2.4.2
     - name: Cypress.io
       uses: cypress-io/github-action@v2.9.7
+    - run: npm install
+    - run: npx browserslist@latest --update-db
     - run: export APPLITOOLS_API_KEY="OloyoDOU8S3wkDKOT732lBVxn39fhC2rmNc7103Yu626Y110"
     - run: APPLITOOLS_API_KEY="OloyoDOU8S3wkDKOT732lBVxn39fhC2rmNc7103Yu626Y110" npx cypress open
     
