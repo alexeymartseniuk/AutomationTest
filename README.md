@@ -7,6 +7,7 @@
 3. Run test manually or using npm command:
    
 npm run test
+
 4. Select spec:
    
 cypress/integration/ui_spec.js
